@@ -72,7 +72,6 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             I am a DevOps Engineer passionate about automating and optimizing cloud infrastructure. My expertise includes AWS, Kubernetes, Docker, Terraform, CI/CD pipelines, and Linux system administration. I specialize in designing scalable, high-availability architectures, implementing Infrastructure as Code (IaC), and streamlining deployments with GitHub Actions and Jenkins.
             <br />
-            A strong advocate for automation and continuous improvement, I thrive on solving complex infrastructure challenges. Always eager to expand my skills, I actively work on real-world projects, optimizing cloud environments for performance, security, and cost-efficiency.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>
